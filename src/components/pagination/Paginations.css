@@ -1,0 +1,9 @@
+.pagination_container {
+  margin: 10px 0;
+}
+.pagenumber {
+  margin: 0 10px;
+  cursor: pointer;
+  color: blue;
+  width: inherit;
+}

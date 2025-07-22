@@ -1,0 +1,84 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-image: linear-gradient(
+    to right top,
+    #86a8e7,
+    #7cbdee,
+    #82d0ef,
+    #97e1ed,
+    #b4f0ec
+  );
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px grey;
+}
+
+.nav_container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+}
+
+.navbar_logo {
+  display: flex;
+  align-items: center;
+  color: coral;
+}
+
+.bikeLogo {
+  color: coral;
+  height: 40px;
+}
+
+.logo_up {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.logo_down {
+  margin-bottom: 5px;
+  align-self: flex-end;
+}
+
+.navbar_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_search > label {
+  color: #294057;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.navbar_search > input {
+  outline: none;
+  border: none;
+  background: white;
+  height: 2rem;
+  box-shadow: inset 0px 0px 1px grey;
+  padding-left: 10px;
+}
+
+.navbar_search > input:focus {
+  box-shadow: inset 0px 0px 4px grey;
+}
+
+.input_within {
+  width: 80px;
+  border-radius: 3px;
+}
+
+.input_location {
+  min-width: 200px;
+  margin-right: 10px;
+  border-radius: 3px;
+}

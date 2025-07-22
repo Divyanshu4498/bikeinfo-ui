@@ -1,0 +1,87 @@
+.filter {
+  background-color: rgb(250, 250, 250, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.filter_container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.filter_heading {
+  border-right: 1px solid coral;
+  padding: 0px 10px;
+  color: #294057;
+}
+
+.filter_title,
+.filter_date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #294057;
+}
+
+.filter_title > label,
+.filter_date > label {
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.filter_title > input,
+.to_date > input,
+.from_date > input {
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  height: 1.5rem;
+  box-shadow: inset 0px 0px 1px grey;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.filter_title > input:focus,
+.from_date > input:focus,
+.to_date > input:focus {
+  box-shadow: inset 0px 0px 4px grey;
+}
+
+.filter_date_container {
+  display: flex;
+}
+
+.filter_submit {
+  height: 80%;
+}
+
+.from_date,
+.to_date {
+  position: relative;
+}
+.from_date > label,
+.to_date > label {
+  width: fit-content;
+  font-size: 0.7rem;
+  position: absolute;
+  font-weight: bold;
+  top: -8px;
+  left: 4px;
+  background-image: linear-gradient(
+    to top,
+    #ffffff,
+    #f8f9fe,
+    #eef4fc,
+    #e2f0fa,
+    #d5ecf6
+  );
+  border-radius: 5px;
+}
+
+.from_date {
+  margin-right: 5px;
+}

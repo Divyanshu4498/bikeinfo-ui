@@ -1,0 +1,111 @@
+.bike_container {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  background: rgb(196, 66, 140, 0.2);
+  padding: 20px;
+  box-shadow: 0px 0px 8px #6b6969;
+  border-radius: 10px;
+}
+
+.bike_container:hover {
+  box-shadow: 0px 0px 8px white;
+}
+
+.bike_container > img {
+  width: 150px;
+  height: 150px;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+.bike_body {
+  flex: 1;
+}
+
+.bike_tag {
+  font-weight: bolder;
+  display: inline;
+  font-size: 1rem;
+}
+
+.bike_container > Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+}
+
+.bike_title {
+  color: rgb(39, 38, 38);
+  cursor: pointer;
+  font-weight: Bold;
+  font-size: 1.2rem;
+  width: fit-content;
+}
+
+.bike_title:hover {
+  color: #030303;
+  text-decoration: underline;
+}
+
+.bike_details {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+.bike_tag > span {
+  display: flex;
+}
+
+.bike_location {
+  display: flex;
+  align-items: center;
+}
+
+.modal_conatiner {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right top,
+    #86a8e7,
+    #7cbdee,
+    #82d0ef,
+    #97e1ed,
+    #b4f0ec
+  );
+  border-radius: 10px;
+}
+
+.modal_img {
+  object-fit: contain;
+  margin: auto;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.modal_title {
+  font-weight: bold;
+  margin: 15px auto 0px;
+}
+
+.modal_desc {
+  font-size: small;
+  text-align: center;
+  margin: 15px auto 0px;
+}
+
+.modal_date {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px 0px;
+}
+.modal_conatiner span {
+  font-weight: bold;
+  font-size: small;
+}
+.bike_location {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px 0px;
+}
