@@ -6,7 +6,7 @@ import Modal from "@mui/material/Modal";
 import axios from "axios";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
-const style = {
+export const ModalStyle = {
   position: "absolute" as "absolute",
   top: "50%",
   left: "50%",
@@ -106,7 +106,7 @@ const Bikes: FC<Props> = ({
         </div>
       </div>
       <Modal open={open} onClose={handleClose}>
-        <Box className="modal_conatiner" sx={style}>
+        <Box className="modal_conatiner" sx={ModalStyle}>
           {thumb ? (
             <img className="modal_img" src={thumb} alt={title} />
           ) : (
